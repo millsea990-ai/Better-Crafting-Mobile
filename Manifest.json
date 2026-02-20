@@ -1,0 +1,15 @@
+{
+  "Name": "Better Crafting Mobile Lite",
+  "Author": "Grok 4.20 + [اسمك على GitHub]",
+  "Version": "1.0.0",
+  "Description": "Better Crafting للموبايل! بحث سريع + مفضلة + Bulk crafting + Touch friendly. مصمم خصيصاً لـ SMAPI Android",
+  "UniqueID": "Grok.BetterCraftingMobileLite",
+  "MinimumApiVersion": "4.0.0",
+  "UpdateKeys": [],
+  "Dependencies": [
+    {
+      "UniqueID": "Pathoschild.ContentPatcher",
+      "IsRequired": false
+    }
+  ]
+}
