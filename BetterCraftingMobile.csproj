@@ -6,8 +6,8 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     
-    <!-- مهم: ده اللي هيحل مشكلة Game Folder على GitHub Actions -->
-    <DisableModBuildConfigGamePathCheck>true</DisableModBuildConfigGamePathCheck>
+    <!-- الحل النهائي لمشكلة Game Folder على GitHub Actions -->
+    <GamePath>$(MSBuildThisFileDirectory)dummy-stardew-valley</GamePath>
   </PropertyGroup>
 
   <ItemGroup>
