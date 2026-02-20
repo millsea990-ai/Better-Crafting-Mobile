@@ -5,6 +5,9 @@
     <LangVersion>latest</LangVersion>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    
+    <!-- مهم: ده اللي هيحل مشكلة Game Folder على GitHub Actions -->
+    <DisableModBuildConfigGamePathCheck>true</DisableModBuildConfigGamePathCheck>
   </PropertyGroup>
 
   <ItemGroup>
