@@ -26,6 +26,11 @@
       <HintPath>lib/MonoGame.Framework.dll</HintPath>
       <Private>false</Private>
     </Reference>
+    <!-- الإضافة المهمة اللي كانت ناقصة -->
+    <Reference Include="SMAPI.Toolkit.CoreInterfaces">
+      <HintPath>lib/SMAPI.Toolkit.CoreInterfaces.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
   </ItemGroup>
 
-</Project>
+</Project>ct>
