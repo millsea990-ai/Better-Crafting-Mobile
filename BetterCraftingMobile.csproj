@@ -9,7 +9,21 @@
 
   <ItemGroup>
     <PackageReference Include="Lib.Harmony" Version="2.3.3" />
-    <PackageReference Include="Platonymous.SMAPI-Stubs" Version="3.18.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="StardewModdingAPI">
+      <HintPath>lib/StardewModdingAPI.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="StardewValley">
+      <HintPath>lib/StardewValley.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="MonoGame.Framework">
+      <HintPath>lib/MonoGame.Framework.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
   </ItemGroup>
 
 </Project>
