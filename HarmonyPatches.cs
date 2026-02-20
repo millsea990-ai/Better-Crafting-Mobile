@@ -52,12 +52,27 @@ namespace BetterCraftingMobile
                 if (y > 600 && y < 680)
                 {
                     string mode = (x < 220) ? "5" : (x < 350) ? "10" : (x < 480) ? "25" : "Max";
-                    BetterCraftingManager.Instance.GetBulkAmount(1, mode); // سيتم توسيعها لاحقاً
+                    GetBulkAmount(1, mode); // الدالة الجديدة هنا
                     ModEntry.Monitor.Log($"Bulk crafting mode: {mode}", LogLevel.Info);
                     return false; // منع الـ default click
                 }
             }
             return true;
+        }
+
+        // الدالة اللي طلبت دمجها (مضافة هنا كـ static)
+        public static int GetBulkAmount(int baseAmount, string mode)
+        {
+            switch (mode)
+            {
+                case "5": return 5;
+                case "10": return 10;
+                case "25": return 25;
+                case "50": return 50;
+                case "100": return 100;
+                case "Max": return 999;
+                default: return baseAmount;
+            }
         }
     }
 }
