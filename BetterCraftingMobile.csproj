@@ -5,13 +5,6 @@
     <LangVersion>latest</LangVersion>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    
-    <!-- الحل النهائي لمشكلة Game Folder على GitHub Actions -->
-    <GamePath>$(MSBuildThisFileDirectory)dummy-stardew-valley</GamePath>
   </PropertyGroup>
-
-  <ItemGroup>
-    <PackageReference Include="Pathoschild.Stardew.ModBuildConfig" Version="4.4.0" />
-  </ItemGroup>
 
 </Project>
